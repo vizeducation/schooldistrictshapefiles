@@ -11,9 +11,10 @@ ELSEIF LEFT([Affgeoid],2)= "96" THEN "Secondary"
 ELSE "Unified"
 END
 
-FIPS Codes:
+<b>FIPS Codes</b>
+<br>
+State Abbreviation, FIPS Code, State Name
 <ul>
-	<li>State Abbreviation	FIPS Code	State Name</li>
 	<li>AL	01	ALABAMA</li>
 	<li>AK	02	ALASKA</li>
 	<li>AZ	04	ARIZONA</li>
