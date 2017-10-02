@@ -6,11 +6,12 @@ some cleanup and appending on the Census cartographic boundary shapefiles for ea
 states with different district types (elementary, secondary, unified) have been appended to the 00_ALL STATES.zip file; just need to crosswalk the FIPS codes.
 
 to retain district type info, you can use a flavor of this IF statement:
+<p>
 IF LEFT([Affgeoid],2)= "95" THEN "Elementary"
 ELSEIF LEFT([Affgeoid],2)= "96" THEN "Secondary"
 ELSE "Unified"
 END
-
+</p>
 <b>FIPS Codes</b>
 <br>
 State Abbreviation, FIPS Code, State Name
